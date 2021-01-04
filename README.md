@@ -13,12 +13,14 @@ To motivate the relevance of *uncertainty-aware* models in the domain, we focus 
 The raw data for the 200S and 300S dataset is stored in ``data/200S.csv.gz`` and ``data/300S.csv.gz``. We also include pre-processed datasets (raw, descaled and centered) for the 15min regular time series, devided in train/validation/test in ``200S_15min_(...).csv.gz`` and ``300S_15min_(...).csv.gz`` files.
 
 ## DQR model files
+After running the DQR model, result files (e.g. predicted quantiles, drawn samples, model check points) will be stored in the ``dqr`` folder.
 - ``dqr-param-search-joint.py``: Performs hyper parameter tuning for DQR model.
 - ``dqr-joint-200S.ipynb`` / ``dqr-joint-300S.ipynb``: Notebooks containing train/predict for the 200S and 300S dataset
 - ``dqr-draw-samples-joint-200S.py`` / ``dqr-draw-samples-joint-300S.py``: Draw samples using the curve-fitting approach described in the paper for the 200S and 300S test dataset
 - ``dqr-results-joint-300S.ipynb``: Creates tables with results presented in the paper
 
 ## BRNN model files
+After running the BRNN model, result files (e.g. drawn samples) will be stored in the ``brnn`` folder.
 - ``brnn-param-search-blitz.py`` Performs hyper parameter tuning for BRNN model.
 - ``brrn-blitz-raw-200S`` / ``brnn-blitz-raw-300S``: Notebooks containing train/predict for the 200S and 300S dataset. Results are included in the bottom.
 
