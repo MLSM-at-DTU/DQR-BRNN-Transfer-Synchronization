@@ -20,5 +20,5 @@ To motivate the relevance of *uncertainty-aware* models in the domain, we focus 
 - ``brrn-blitz-raw-200S`` / ``brnn-blitz-raw-300S``: Notebooks containing train/predict for the 200S and 300S dataset. Results are included in the bottom.
 
 ## Other files
-- ``Baseline-Kalman.ipynb``: Baseline with linear Kalman filter.
+- ``baseline-kalman.ipynb``: Baseline with linear Kalman filter.
 - ``plots-*.ipynb``: Create all plots used in the paper.
