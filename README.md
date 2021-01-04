@@ -1,7 +1,8 @@
 # Short-term bus travel time prediction for transfer synchronization with intelligent uncertainty handling
 
 This repository consist of the source code used for producing the results in the paper:
-Petersen, N. C., Parslov, A., & Rodrigues, F. (2020). Short-term bus travel time prediction for transfer synchronization with intelligent uncertainty handling. Submitted to Expert System with Applications.
+
+Petersen, N. C., Parslov, A., & Rodrigues, F. (2020). *Short-term bus travel time prediction for transfer synchronization with intelligent uncertainty handling.* Submitted to Expert System with Applications.
 
 ## Abstract
 This paper presents two novel approaches for uncertainty estimation adapted and extended for the multi-link bus travel time problem. The uncertainty is modeled directly as part of recurrent artificial neural networks, but using two fundamentally different approaches: one based on *Deep Quantile Regression* (DQR) and the other on *Baysian Recurrent Neural Network* (BRNN). Both models predict multiple time steps into the future but handle the time-dependent uncertainty estimation differently. We present a sampling technique in order to aggregate quantile estimates for link level travel time to yield the multi-link travel time distribution needed for a vehicle to travel from its current position to a specific downstream stop point or transfer site. 
